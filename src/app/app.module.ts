@@ -9,8 +9,13 @@ import { SobreComponent } from "./institucional/sobre/sobre.component";
 import { ContatoComponent } from "./institucional/contato/contato.component";
 import { RouterModule } from "@angular/router";
 import { rootRouterConfig } from "./app.routes";
-import { APP_BASE_HREF } from "@angular/common";
+import { APP_BASE_HREF, registerLocaleData } from "@angular/common";
+import { ListaProdutoComponent } from "./produtos/lista-produto/lista-produto.component";
+import { ProdutoService } from "./produtos/produtos.service";
+import { HttpClientModule } from "@angular/common/http";
 
+import localePt from "@angular/common/locales/pt";
+registerLocaleData(localePt);
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,12 +24,14 @@ import { APP_BASE_HREF } from "@angular/common";
     FooterComponent,
     SobreComponent,
     ContatoComponent,
+    ListaProdutoComponent,
   ],
   imports: [
+    HttpClientModule,
     BrowserModule,
     [RouterModule.forRoot(rootRouterConfig, { useHash: false })],
   ],
-  providers: [{ provide: APP_BASE_HREF, useValue: "/" }],
+  providers: [ProdutoService, { provide: APP_BASE_HREF, useValue: "/" }],
   bootstrap: [AppComponent],
 })
 export class AppModule {}

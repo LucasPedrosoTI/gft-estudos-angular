@@ -1,0 +1,76 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "nome": "Mouse Microsoft",
+      "promocao": false,
+      "valor": 200.50,
+      "valorPromo": 0,
+      "imagem": "mouse.jpg"
+    },
+    {
+      "id": 2,
+      "nome": "teclado Microsoft",
+      "promocao": true,
+      "valor": 200.00,
+      "valorPromo": 100.99,
+      "imagem": "mouse.jpg"
+    },
+    {
+      "id": 3,
+      "nome": "Mouse Microsoft",
+      "promocao": false,
+      "valor": 200.00,
+      "valorPromo": 0,
+      "imagem": "mouse.jpg"
+    },
+    {
+      "id": 4,
+      "nome": "Mouse Microsoft",
+      "promocao": false,
+      "valor": 200.00,
+      "valorPromo": 0,
+      "imagem": "mouse.jpg"
+    },
+    {
+      "id": 5,
+      "nome": "Mouse Microsoft",
+      "promocao": false,
+      "valor": 200.00,
+      "valorPromo": 0,
+      "imagem": "mouse.jpg"
+    },
+    {
+      "id": 6,
+      "nome": "Mouse Microsoft",
+      "promocao": false,
+      "valor": 200.00,
+      "valorPromo": 0,
+      "imagem": "mouse.jpg"
+    },
+    {
+      "id": 7,
+      "nome": "Mouse Microsoft",
+      "promocao": false,
+      "valor": 200.00,
+      "valorPromo": 0,
+      "imagem": "mouse.jpg"
+    },
+    {
+      "id": 8,
+      "nome": "Mouse Microsoft",
+      "promocao": false,
+      "valor": 200.00,
+      "valorPromo": 0,
+      "imagem": "mouse.jpg"
+    },
+    {
+      "id": 9,
+      "nome": "Mouse Microsoft",
+      "promocao": false,
+      "valor": 200.00,
+      "valorPromo": 0,
+      "imagem": "mouse.jpg"
+    }
+  ]
+}
